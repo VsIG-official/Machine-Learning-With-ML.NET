@@ -9,20 +9,26 @@
 - [Description](#description)
 - [Badges](#badges)
 - [Contributing](#contributing)
-- [NeuralNetworks](#neuralNetworks)
+- [Neural Networks](#networks)
 - [License](#license)
 
 ### Description
 
-Once upon a time I was working on a [AI with My teammates, which was able to identify music's mood](https://github.com/mezidia/song-helper). Now I want to create wome more, but with CSharp
+Once upon a time I was working on an [AI with My teammates, which was able to identify music's mood](https://github.com/mezidia/song-helper). Now I want to create wome more, but with CSharp and .NET Interactive Notebooks
 
 ## Badges
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) [![Gem Version](http://img.shields.io/gem/v/badgerbadgerbadger.svg?style=flat-square)](https://rubygems.org/gems/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
+[![Theme](https://img.shields.io/badge/Theme-AI-blueviolet?style=flat-square)](https://www.google.com.ua/)
+[![Platform](https://img.shields.io/badge/Platform-CSharp-blueviolet?style=flat-square)](https://www.google.com.ua/)
 
 ---
 
-## NeuralNetworks
+## Networks
+
+- Penguins:
+  - [Source](https://rubikscode.net/2021/09/27/net-interactive-jupyter-notebooks/)
+  - [Implamentation](https://github.com/VsIG-official/Neural-Networks-With-ML.NET/tree/master/Penguins)
+- > Another
 
 ## Example
 
