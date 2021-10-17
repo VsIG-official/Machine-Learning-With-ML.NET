@@ -1,7 +1,7 @@
-# Project Title
+# Neural-Networks-With-ML.NET
 
 <p align="center">
-  <img src="https://github.com/VsIG-official/Images/blob/master/LogoFinalWhite.png" data-canonical-src="https://github.com/VsIG-official/Images/blob/master/LogoFinalWhite.png" width="200" height="100" />
+  <img src="https://github.com/VsIG-official/Neural-Networks-With-ML.NET/blob/master/Images/NeuralNetworks.jpg" data-canonical-src="https://github.com/VsIG-official/Neural-Networks-With-ML.NET/blob/master/Images/NeuralNetworks.jpg" width="200" height="100" />
 </p>
 
 ## Table of Contents
@@ -21,37 +21,17 @@
 
 ---
 
-## Example (Optional)
+## Example
 
 ```csharp
-/// <summary>
-	/// Class for Api Client
-	/// </summary>
-	public static class ApiHelper
-	{
-		// Create static, 'cause We need one client per application
-		public static HttpClient ApiClient { get; set; }
+var mlContext = new MLContext();
 
-		/// <summary>
-		/// Initializes API client
-		/// </summary>
-		public static void Initialize()
-		{
-			ApiClient = new HttpClient
-			{
-				// a lot of adresses will begin with the same string,
-				// so We can put the beginning here
-				// but won't, because We need more than one adress
-				/*
-				BaseAddress = new Uri("http://somesite.com/")
-				*/
-			};
-			ApiClient.DefaultRequestHeaders.Accept.Clear();
-			// give Us json, not webpage or etc.
-			ApiClient.DefaultRequestHeaders.Accept.Add(new
-				MediaTypeWithQualityHeaderValue("application/json"));
-		}
-	}
+IDataView trainingDataView = mlContext.Data.
+LoadFromTextFile<PalmerPenguinsData>("data\\penguins.csv",
+hasHeader: true, separatorChar: ',');
+
+DataOperationsCatalog.TrainTestData dataSplit =
+mlContext.Data.TrainTestSplit(trainingDataView, testFraction: 0.3);
 ```
 
 ---
