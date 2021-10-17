@@ -27,7 +27,7 @@ Once upon a time I was working on an [AI with My teammates, which was able to id
 
 - Penguins:
   - [Source](https://rubikscode.net/2021/09/27/net-interactive-jupyter-notebooks/)
-  - [Implamentation](https://github.com/VsIG-official/Neural-Networks-With-ML.NET/tree/master/Penguins)
+  - [Implementation](https://github.com/VsIG-official/Neural-Networks-With-ML.NET/tree/master/Penguins)
 - > Another
 
 ## Example
