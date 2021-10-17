@@ -14,7 +14,7 @@
 
 ### Description
 
-Once upon a time I was working on an [AI with My teammates, which was able to identify music's mood](https://github.com/mezidia/song-helper). Now I want to create wome more, but with CSharp and .NET Interactive Notebooks
+Once upon a time I was working on an [AI with My teammates, which was able to identify music's mood](https://github.com/mezidia/song-helper). Now I want to create some more, but with CSharp and .NET Interactive Notebooks
 
 ## Badges
 
